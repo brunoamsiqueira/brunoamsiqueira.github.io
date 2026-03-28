@@ -119,7 +119,7 @@ li,
 }
 
 .hero-content {
-    text-align: unset;
+    text-align: justify;
 }
 
 .hero-tag {
@@ -186,7 +186,7 @@ li,
     .hero-layout {
         grid-template-columns: 1fr;
         gap: 22px;
-        text-align: center;
+        text-align: justify;
     }
 
     .hero-main {
