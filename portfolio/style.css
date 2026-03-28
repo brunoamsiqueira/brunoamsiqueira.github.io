@@ -28,17 +28,35 @@ body {
         linear-gradient(180deg, #f8f6f2 0%, #f1ede6 100%);
     color: var(--text);
     line-height: 1.65;
-    text-align: justify;
 }
 
+/* JUSTIFICAÇÃO APENAS PARA TEXTOS CORRIDOS */
 p,
 li,
 .project-text,
 .hero-highlight,
 .hero-description,
 .section p,
-.project-card p {
+.project-card p,
+.hero-skills p,
+.footer-content p {
     text-align: justify;
+}
+
+/* ELEMENTOS QUE DEVEM CONTINUAR À ESQUERDA */
+.logo,
+.main-nav a,
+.hero-tag,
+.hero h1,
+.hero-skills h2,
+.section-label,
+.card-tag,
+.project-card h3,
+.project-label,
+.btn,
+.project-link,
+.project-stack {
+    text-align: left;
 }
 
 /* CONTAINER */
@@ -101,7 +119,6 @@ li,
     grid-template-columns: minmax(0, 1.8fr) minmax(220px, 320px);
     gap: 36px;
     align-items: start;
-    text-align: justify;
 }
 
 .hero-main {
@@ -119,7 +136,7 @@ li,
 }
 
 .hero-content {
-    text-align: justify;
+    text-align: left;
 }
 
 .hero-tag {
@@ -168,7 +185,7 @@ li,
 }
 
 .hero-skills {
-    text-align: justify;
+    text-align: left;
 }
 
 .hero-skills h2 {
@@ -186,7 +203,6 @@ li,
     .hero-layout {
         grid-template-columns: 1fr;
         gap: 22px;
-        text-align: justify;
     }
 
     .hero-main {
@@ -459,7 +475,7 @@ li,
 }
 
 .project-section + .project-section {
-    border-top: 1px dashed rgba(0,0,0,0.04);
+    border-top: 1px dashed rgba(0, 0, 0, 0.04);
     padding-top: 10px;
 }
 
@@ -487,7 +503,6 @@ li,
 }
 
 .footer-content p {
-    text-align: justify;
     color: var(--text-soft);
 }
 
