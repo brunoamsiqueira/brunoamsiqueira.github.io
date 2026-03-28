@@ -28,6 +28,17 @@ body {
         linear-gradient(180deg, #f8f6f2 0%, #f1ede6 100%);
     color: var(--text);
     line-height: 1.65;
+    text-align: justify;
+}
+
+p,
+li,
+.project-text,
+.hero-highlight,
+.hero-description,
+.section p,
+.project-card p {
+    text-align: justify;
 }
 
 /* CONTAINER */
@@ -90,7 +101,7 @@ body {
     grid-template-columns: minmax(0, 1.8fr) minmax(220px, 320px);
     gap: 36px;
     align-items: start;
-    text-align: left;
+    text-align: justify;
 }
 
 .hero-main {
@@ -157,7 +168,7 @@ body {
 }
 
 .hero-skills {
-    text-align: center;
+    text-align: justify;
 }
 
 .hero-skills h2 {
@@ -476,7 +487,7 @@ body {
 }
 
 .footer-content p {
-    text-align: center;
+    text-align: justify;
     color: var(--text-soft);
 }
 
